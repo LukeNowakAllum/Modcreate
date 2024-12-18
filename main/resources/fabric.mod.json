@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "Hack",
+  "version": "${version}",
+
+  "name": "TotemHack",
+  "description": "AutoHacks totem from inventory to offhand",
+  "authors": [
+    "Cosmicpigee/Roast_Creeper"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "cc0-1.0",
+  "icon": "C:/Users/steve/Downloads/download.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.TotemHack.mixin.Hack"
+    ],
+    "client": [
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
